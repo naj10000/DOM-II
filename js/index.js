@@ -1,5 +1,39 @@
 // Your code goes here
 
+// import { gsap } from "gsap";
+
+// function clickEventHandler(event){
+//     event.preventDefault();
+//     console.log(event.type + '!!!!!!!!!!')
+//     console.log(event.target)
+//     console.log(event.currentTarget)
+
+//     // document.body.innerHTML = "<div>gone</div>"
+// }
+
+// homeLink.addEventListener(
+//     'click', ()=> {
+//         console.log('the link was clicked')
+//     }
+
+
+// )
+
+// document.querySelector('nav').addEventListener('click', (clickEventHandler))
+
+// document.querySelector('.intro').addEventListener('click',(clickEventHandler))
+
+// document.body.addEventListener('click', (clickEventHandler)
+//     )
+
+// document.addEventListener('click', (clickEventHandler))
+
+// window.addEventListener('click', (clickEventHandler))
+// document.querySelector('a').addEventListener('click', event => {
+//     event.stopPropagation();
+//     console.log('hahaha stop the prop')
+// })
+// document.querySelector('header').addEventListener('click', clickEventHandler)
 ///mouseOver
 const navHead = document.querySelector('.nav-container .logo-heading');
 
@@ -70,6 +104,8 @@ document.addEventListener("keydown", event => {
   scaleImg2.addEventListener('wheel', ()=>{
         scaleImg2.style.transform= "scale(1)"
   })
+
+//   gsap.to('img', {rotation: 27, x: 100, duration: 1});
 
   //scroll 
   const scrolImg = document.querySelector('.intro img')
